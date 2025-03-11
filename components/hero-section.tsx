@@ -17,6 +17,9 @@ import {
 } from "@react-three/drei"
 import { Button } from "@/components/ui/button"
 import { ChevronDown } from "lucide-react"
+import { useIsMobile } from "@/hooks/use-mobile"
+import { useToast } from "@/hooks/use-toast"
+
 
 // Robot character that works on a holographic interface
 function RobotWorker(props) {
